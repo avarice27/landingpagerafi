@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafi</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1><a href="#">Rafi</a></h1>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobi">Hobby</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <article id="profile" class="card">
+            <h2><span>Profile</span></h2>
+            <figure>
+                <img src="image/rafi.png" alt="rafi">
+                <h3>Rafi Musthafa Rustianto <span class="tik"></span></h3>
+                <figcaption>Tanggal Lahir 27 Juni 2002</figcaption>
+                <figcaption>Tempat Tinggal Kota Jakarta</figcaption>
+            </figure>
+        </article>
+    </aside>
+    <main>
+        <div id="content">
+            <article id="about" class="card">
+                <h2><span>About</span></h2>
+                <h3>Haloo...<br> Saya adalah seseorang <span class="efek-tik"></span>
+                </h3>
+                <br>
+                <p>Nama Panggilan Rafi. Seorang mahasiswa semester 5 jurusan informatika yang sedang belajar coding. Saya ingin mahir dalam coding agar dapat menjadi seorang front end programmer.</p>
+                <p>Dan saya mempelajari semuanya di Internet (Google,Youtube) di mana mereka membangun harga diri Anda dan membuat Anda tetap termotivasi.</p>
+            </article>
+            <article id="hobi" class="card">
+                <h2> <span>Hobby</span> </h2>
+                <img src="image/hobi.png" alt="hobi" id="hobi">
+                <p>1. Hobi saya yang pertama adalah bermain Mobile Legends </p>
+                <p>
+                    "Hal paling penting yang harus dimiliki dalam diri seorang gamer itu bukan hanya skill.. Tapi komunikasi dan kerjasama yang baik antar pemain."
+                </p>
+                <p>2. Hobi saya yang kedua adalah mendengarkan musik</p>
+                <p> "Dengan mendengarkan musik saya bisa menikmati momen hidup ini sambil berimajinasi tentang kenangan indah di masa lalu."</p>
+            
+            </article>
+            <article id="contact" class="card">
+                <h2><span>Contact</span></h2>
+                <div class="content-2">
+                    <form name="contact-form">
+                        <span style="color: #666666; font-family: Arial,Helvetica,sans-serif; font-weight: 700;">
+                            <i class="fa fa-user"></i> Name </span><br>
+                        <input id="ContactForm1_contact-form-name" name="name" size="30" type="text" value="" required>
+                        <br> <br>
+                        <span style="color: #666666; font-family: Arial,Helvetica,sans-serif; font-weight: 700;"><i class="fa fa-envelope"></i> Email Address 
+                            <span style="color: #f56954; font-size: x-small; font-weight: bold;">important</span></span>
+                        <br>
+                        <input id="ContactForm1_contact-form-email" name="email" size="30" type="email" required> <br> <br>
+                        <span style="color: #666666; font-family: Arial,Helvetica,sans-serif; font-weight: 700;"><i class="fa fa-pencil-square-o"></i> Content 
+                        <span style="color: #f56954; font-size: x-small; font-weight: bold;">important</span></span><br>
+                        <textarea id="ContactForm1_contact-form-email-message" name="email-message"></textarea> <br>
+                        <input id="ContactForm1_contact-form-submit" type="submit" value="Send" onclick="alert('Pesanan Anda terkirim')"> <br>
+                        <div style="max-width: 222px; text-align: center; width: 100%;">
+                            <div id="ContactForm1_contact-form-error-message" class="contact-form-error-message"></div>
+                            <div id="ContactForm1_contact-form-success-message" class="contact-form-success-message"></div>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <small>Made by Rafi 2022</small>
+        </div>
+    </footer>
+    <script src="style/javasc.js"></script>
+</body>
+</html>
